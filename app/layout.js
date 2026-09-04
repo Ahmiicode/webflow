@@ -39,7 +39,6 @@ export default function RootLayout({ children }) {
         <LeadChatbot />
         <WhatsAppButton />
 
-        {/* Zanderio Widget */}
         <Script
           src="https://cdn.zanderio.ai/widget/loader.js"
           data-id="wdg_EHMqpLgkG60ynDGb0LEzwNwj"
