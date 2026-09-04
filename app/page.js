@@ -1,4 +1,7 @@
+
 // app/page.js
+import Script from "next/script";
+
 import Herosection from "./components/home/Herosection";
 import Services from "./components/home/Services";
 import Whychoseus from "./components/home/Whychoseus";
@@ -17,6 +20,13 @@ export default function Page() {
       <Projects />
       <Testimonial />
       <CallToAction />
+
+      <Script
+        src="https://cdn.zanderio.ai/widget/loader.js"
+        data-id="wdg_EHMqpLgkG60ynDGb0LEzwNwj"
+        strategy="afterInteractive"
+      />
     </main>
   );
 }
+
